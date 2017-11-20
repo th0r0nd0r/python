@@ -55,6 +55,7 @@ NOTE: s.find returns -1 if the string is not found. this does NOT mean it's the 
 
 
 
+
 Slicing:
 very similar to ruby, but uses : instead of ..
 - always have to include the : in a slice
@@ -64,6 +65,9 @@ For example, if you're slicing "Hello"-
 - s[-4] is 'e' -- 4th from the end
 - s[:-3] is 'He' -- going up to but not including the last 3 chars.
 - s[-3:] is 'llo' -- starting with the 3rd char from the end and extending to the end of the string.
+
+
+
 
 Using %:
 From what I can tell it looks like you use % to interpolate values into a string like in this example:
