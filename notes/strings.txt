@@ -85,3 +85,5 @@ ustring = u'A unicode \u018e string \xf1'
 
 to convert to something like utf-8 do this:
 ustring = u'A unicode \u018e string \xf1'
+
+some functions, like print don't work fully for unicode strings, so convert to utf-8 before printing
