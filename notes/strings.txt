@@ -96,3 +96,4 @@ Unlike Ruby, there are no 'end's.  Unlike JavaScript, there are no () or {}.  He
 
 - the if statement itself ends with a colon :
 - like function defs, python uses indentation instead of 'end'
+- Falsey values: False, None, 0, empty string, empty list, empty dictionary
