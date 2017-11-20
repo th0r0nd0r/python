@@ -92,3 +92,4 @@ print doesn't work fully for unicode strings, so convert to utf-8 before printin
 
 
 If Statement:
+Unlike Ruby, there are no 'end's.  Unlike JavaScript, there are no () or {}
