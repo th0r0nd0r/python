@@ -21,7 +21,7 @@ Methods:
 
 - in general, it seems that a lot of methods that would be .method in ruby, are method() in python
 
-- The "print" operator prints out one or more python items followed by a newline (leave a trailing comma at the end of the items to inhibit the newline). 
+- The "print" operator prints out one or more python items followed by a newline (leave a trailing comma at the end of the items to inhibit the newline).
 - A "raw" string literal is prefixed by an 'r' and passes all the chars through without special treatment of backslashes, so r'x\nx' evaluates to the length-4 string 'x\nx'.
 - A 'u' prefix allows you to write a unicode string literal (Python has lots of other unicode support features -- see the docs below).
 
@@ -31,3 +31,7 @@ Operations:
 - use // for integer division
 - presumably / does float division in python 3+?
 - dividing a float by an int and vice versa returns a float
+
+
+
+String Methods Con't:
