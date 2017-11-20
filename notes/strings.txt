@@ -60,3 +60,7 @@ very similar to ruby, but uses : instead of ..
 - always have to include the : in a slice
 
 For example, if you're slicing "Hello"-
+- s[-1] is 'o' -- last char (1st from the end)
+- s[-4] is 'e' -- 4th from the end
+- s[:-3] is 'He' -- going up to but not including the last 3 chars.
+- s[-3:] is 'llo' -- starting with the 3rd char from the end and extending to the end of the string.
