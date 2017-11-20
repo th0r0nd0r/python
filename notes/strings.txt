@@ -99,5 +99,6 @@ Unlike Ruby, there are no 'end's.  Unlike JavaScript, there are no () or {}.  He
 
 - Falsey values: False, None, 0, empty string, empty list, empty dictionary
 
-- pythons comparison operators are similar to ruby with one notable exception:
+Operators:
+- python's comparison operators are similar to ruby with one notable exception:
     - you MUST spell out *and* *or* and *not*, python doesn't use && and ||
