@@ -45,6 +45,8 @@ String Methods Cont:
 
 - s.find('other') -- searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found
 
+NOTE: s.find returns -1 if the string is not found. this does NOT mean it's the last index.
+
 - s.replace('old', 'new') -- returns a string where all occurrences of 'old' have been replaced by 'new'
 
 - s.split('delim') -- returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it's just text. 'aaa,bbb,ccc'.split(',') -> ['aaa', 'bbb', 'ccc']. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.
