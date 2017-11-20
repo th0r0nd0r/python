@@ -1,10 +1,18 @@
 Mostly the same but here are some differences.
 
+
+
+Class:
 - the class is called str not String, so don't assign variables to str (it will overwrite the native str)
 
-- the escape character is \ not /
 
+
+Escaping:
+- the escape character is \ not /
 - strings can span multiple lines, but there must be a \ to escape the newline
 - triple quotes (""" or ''') don't need to escape newlines
 
+
+
+Methods:
 - it's len(string) not string.length
