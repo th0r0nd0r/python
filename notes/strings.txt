@@ -99,6 +99,8 @@ Unlike Ruby, there are no 'end's.  Unlike JavaScript, there are no () or {}.  He
 - use elif, not elsif
 - colon after every if, elif, and else
 
+- can't do ruby-style one-line with reversed order:
+
 - Falsey values: False, None, 0, empty string, empty list, empty dictionary
 
 Operators:
