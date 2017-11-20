@@ -84,3 +84,4 @@ to make one, put 'u' before the string, like so:
 ustring = u'A unicode \u018e string \xf1'
 
 to convert to something like utf-8 do this:
+ustring = u'A unicode \u018e string \xf1'
