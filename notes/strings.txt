@@ -83,4 +83,4 @@ different from 'str' objects, but they share the superclass "basestring"
 to make one, put 'u' before the string, like so:
 ustring = u'A unicode \u018e string \xf1'
 
-to convert back to something like utf-8 do this:
+to convert to something like utf-8 do this:
