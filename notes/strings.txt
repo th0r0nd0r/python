@@ -24,3 +24,6 @@ Methods:
 
 
 Operations:
+- use // for integer division
+- presumably / does float division in python 3+?
+- dividing a float by an int and vice versa returns a float
