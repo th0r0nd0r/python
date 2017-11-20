@@ -56,3 +56,5 @@ NOTE: s.find returns -1 if the string is not found. this does NOT mean it's the 
 
 
 Slicing:
+very similar to ruby, but uses : instead of ..
+- always have to include the : in a slice
