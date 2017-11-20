@@ -71,3 +71,5 @@ For example, if you're slicing "Hello"-
 
 Using %:
 From what I can tell it looks like you use % to interpolate values into a string like in this example:
+
+text = "%d little pigs come out or I'll %s and %s and %s" % (3, 'huff', 'puff', 'blow down')
