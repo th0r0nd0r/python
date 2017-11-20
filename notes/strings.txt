@@ -17,3 +17,4 @@ Escaping:
 Methods:
 - it's len(string) not string.length
 - don't use len as a variable name to avoid blocking out len() function
+- it's str(var) not var.to_s
