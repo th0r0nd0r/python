@@ -20,3 +20,7 @@ Methods:
 - it's str(var) not var.to_s
 
 - in general, it seems that a lot of methods that would be .method in ruby, are method() in python
+
+
+
+Operations:
