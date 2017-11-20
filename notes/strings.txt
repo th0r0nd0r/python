@@ -1,1 +1,4 @@
 Mostly the same but here are some differences.
+
+- strings can span multiple lines, but there must be a \ to escape the newline
+- triple quotes (""" or ''') don't need to escape newlines
