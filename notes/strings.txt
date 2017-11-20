@@ -94,4 +94,5 @@ print doesn't work fully for unicode strings, so convert to utf-8 before printin
 If Statement:
 Unlike Ruby, there are no 'end's.  Unlike JavaScript, there are no () or {}.  Here's what there are:
 
-- the if statement itself ends with a colon (:)
+- the if statement itself ends with a colon :
+- like function defs, python uses indentation instead of 'end'
