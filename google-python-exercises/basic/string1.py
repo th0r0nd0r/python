@@ -41,7 +41,7 @@ def both_ends(s):
     if len(s) < 2:
         string = ""
     else:
-        string = s[:1] + s[-2:]
+        string = s[:2] + s[-2:]
 
     return string
 
