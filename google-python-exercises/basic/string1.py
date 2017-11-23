@@ -76,7 +76,7 @@ def mix_up(a, b):
   rest_a = a[2:]
   rest_b = b[2:]
 
-  return
+  return first_2_b + rest_a + " " + first_2_a + rest_b
 
 
 # Provided simple test() function used in main() to print
