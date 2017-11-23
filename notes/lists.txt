@@ -30,3 +30,9 @@ For loops:
       print 'yay'
 
   - for loops can also be used on strings (like str.each_char in Ruby)
+
+
+
+Range:
+  - use like this: range(n)
+    - non inclusive (stops at n-1)
