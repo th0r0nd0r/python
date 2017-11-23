@@ -73,6 +73,8 @@ def fix_start(s):
 def mix_up(a, b):
   first_2_a = a[:2]
   first_2_b = b[:2]
+  rest_a = a[2:]
+  rest_b = b[2:]
 
   return
 
