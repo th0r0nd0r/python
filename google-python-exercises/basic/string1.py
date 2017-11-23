@@ -59,7 +59,8 @@ def fix_start(s):
   first_char = s[0]
 
   rest = s[1:].replace(first_char, "*")
-  return
+
+  return first_char + rest
 
 
 # D. MixUp
