@@ -1,0 +1,1 @@
+Python has a data type called "list," which I'm pretty sure is gonna be a dynamic array.
