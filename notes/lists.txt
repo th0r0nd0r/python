@@ -23,3 +23,8 @@ For loops:
     for num in squares:
       sum += num
     print sum  ## 30
+
+  - Python has no includes? method, so use for loops to check for inclusion:
+    list = ['larry', 'curly', 'moe']
+    if 'curly' in list:
+      print 'yay'
