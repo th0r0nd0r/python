@@ -39,6 +39,9 @@ def match_ends(words):
 def front_x(words):
   sorted_x_words = []
   sorted_non_xs = []
+
+  for word in words:
+
   return
 
 
