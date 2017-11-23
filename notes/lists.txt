@@ -36,3 +36,9 @@ For loops:
 Range:
   - use like this: range(n)
     - non inclusive (stops at n-1)
+  - can also take in a start value: range(a, b)
+
+  - can use a combo of the for loop and range to build a traditional numeric for loop:
+    for i in range(100):
+      print i
+  
