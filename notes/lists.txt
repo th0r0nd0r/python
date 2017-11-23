@@ -44,3 +44,9 @@ Range:
 
   - there is a variant xrange() that has better performance in Python 2 for the for loop/range combo because it doesn't build the whole list of numbers.
   - vanilla range() is performant in Python 3
+
+
+
+While Loops:
+  - pretty standard here
+  - keywords "break" and "continue"
