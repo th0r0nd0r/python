@@ -20,9 +20,10 @@ def verbing(s):
         string = s
     elif s[-3:] == "ing":
         string = s + "ly"
-    
+    else:
+        string = s + "ing"
 
-    return
+    return string
 
 
 # E. not_bad
