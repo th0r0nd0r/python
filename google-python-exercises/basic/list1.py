@@ -37,7 +37,8 @@ def match_ends(words):
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 def front_x(words):
-  # +++your code here+++
+  sorted_x_words = []
+  sorted_non_xs = []
   return
 
 
