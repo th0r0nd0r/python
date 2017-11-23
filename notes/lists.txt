@@ -5,3 +5,7 @@ Python has a data type called "list," which I'm pretty sure is gonna be a dynami
 Assignment to Variables:
   - assigning a variable to a list doesn't make a copy
   - it makes that variable point to the list in memory
+
+
+Concatenation:
+  - use + to smash 2 mf lists together
