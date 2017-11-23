@@ -14,3 +14,5 @@ Concatenation:
 
 
 For loops:
+  - Unlike JavaScript, you don't need to keep track of an index variable (i)
+  - Unlike Ruby, you don't have each or blocks
