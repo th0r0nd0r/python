@@ -37,6 +37,9 @@ def verbing(s):
 def not_bad(s):
     bad_idx = s.find("bad")
     not_idx = s.find("not")
+
+    if not_idx < bad_idx:
+        
     return
 
 
