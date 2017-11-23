@@ -41,4 +41,6 @@ Range:
   - can use a combo of the for loop and range to build a traditional numeric for loop:
     for i in range(100):
       print i
-  
+
+  - there is a variant xrange() that has better performance in Python 2 for the for loop/range combo because it doesn't build the whole list of numbers.
+  - vanilla range() is performant in Python 3
