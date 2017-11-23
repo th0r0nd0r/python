@@ -39,7 +39,8 @@ def not_bad(s):
     not_idx = s.find("not")
 
     if not_idx < bad_idx:
-        
+        start_slice = s[:not_idx]
+        end_slice = s[bad_idx + 2:]
     return
 
 
