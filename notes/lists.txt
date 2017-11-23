@@ -10,3 +10,7 @@ Assignment to Variables:
 Concatenation:
   - use + to smash 2 mf lists together
   - this creates a new list (editing the new list won't affect the original lists)
+
+
+
+For loops:
