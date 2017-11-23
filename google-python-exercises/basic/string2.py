@@ -58,6 +58,9 @@ def not_bad(s):
 def front_back(a, b):
   a_len = len(a)
   b_len = len(b)
+
+  if a_len % 2 == 0:
+      
   return
 
 
