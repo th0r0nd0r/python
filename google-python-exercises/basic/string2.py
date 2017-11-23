@@ -40,11 +40,11 @@ def not_bad(s):
 
     if not_idx < bad_idx:
         start_slice = s[:not_idx]
-        end_slice = s[bad_idx + 2:]
+        end_slice = s[(bad_idx + 3):]
         string = start_slice + "good" + end_slice
     else:
         string = s
-        
+
     return string
 
 
