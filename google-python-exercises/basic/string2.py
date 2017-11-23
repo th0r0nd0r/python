@@ -63,6 +63,11 @@ def front_back(a, b):
         a_front = a[:(a_len // 2)]
     else:
         a_front = a[:(a_len // 2 + 1)]
+
+    a_back = a[len(a_front):]
+
+    if b_len % 2 == 0:
+        b_
   return
 
 
