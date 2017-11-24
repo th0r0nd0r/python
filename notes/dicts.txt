@@ -1,0 +1,74 @@
+Question: when I define a dict, it is then displayed in a different order than it was defined in, but always the same order. Why?
+
+
+Dicts
+
+Python's version of the Hash Table
+
+Similar to hashes in Ruby, but:
+  - no hash rocket
+
+Defining Dicts:
+
+  dict = {key1:value1, key2:value2, key3:value3}
+
+
+Setting and Getting keys/values:
+  - use brackets:
+
+    dict['foo'] = 'bar'
+
+    dict['foo'] ## => 'bar'
+
+  - values can be any data type
+  - keys can only be strings, numbers, and tuples
+    - strings and tuples work well because they are immutable
+
+  - use "in" to check if the key is in the dict
+  - or use dict.get(key) which returns the value or None if the key is not present
+  - (or get(key, not-found) allows you to specify what value to return in the not-found case).
+
+
+
+
+Methods and Manipulation:
+
+  - A for loop on a dictionary iterates over its keys by default. The keys will appear in an arbitrary order.
+
+  - The methods dict.keys() and dict.values() return lists of the keys or values explicitly.
+
+  - There's also an items() which returns a list of (key, value) tuples, which is the most efficient way to examine all the key value data in the dictionary.
+
+  - All of these lists can be passed to the sorted() function.
+
+  - There are "iter" variants of these methods called iterkeys(), itervalues() and iteritems() which avoid the cost of constructing the whole list -- a performance win if the data is huge. This goes away with Python 3+
+
+
+
+Dict Formatting:
+
+  - The % operator works conveniently to substitute values from a dict into a string by name:
+
+    hash = {}
+    hash['word'] = 'garfield'
+    hash['count'] = 42
+    s = 'I want %(count)d copies of %(word)s' % hash  # %d for int, %s for string
+    # 'I want 42 copies of garfield'
+
+
+
+Del:
+
+The "del" operator does deletions. In the simplest case, it can remove the definition of a variable, as if that variable had not been defined. Del can also be used on list elements or slices to delete that part of the list and to delete entries from a dictionary.
+
+  var = 6
+  del var  # var no more!
+
+  list = ['a', 'b', 'c', 'd']
+  del list[0]     ## Delete first element
+  del list[-2:]   ## Delete last two elements
+  print list      ## ['b']
+
+  dict = {'a':1, 'b':2, 'c':3}
+  del dict['b']   ## Delete 'b' entry
+  print dict      ## {'a':1, 'c':3}
