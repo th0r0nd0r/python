@@ -1,0 +1,23 @@
+Sorting
+
+Two ways to sort a list:
+  - list.sort()
+  - sorted(list)
+
+  - list.sort() is a method defined on the list object.  It modifies the original list and returns None. (like Ruby's sort!)
+
+  - sorted(list) works on any iterable data type.
+  - It creates a sorted copy and returns the copy
+  - it takes optional parameters:
+    strs = ['aa', 'BB', 'zz', 'CC']
+    print sorted(strs)  ## ['BB', 'CC', 'aa', 'zz'] (case sensitive)
+    print sorted(strs, reverse=True)   ## ['zz', 'aa', 'CC', 'BB']
+
+
+
+Using sorted() with key=
+  - like this:
+    strs = ['ccc', 'aaaa', 'd', 'bb']
+    print sorted(strs, key=len)  ## ['d', 'bb', 'ccc', 'aaaa']
+  - key= uses functions that take in one value, and output one value, and sorts the iterable with each value mapped through the function
+  - key= can be a built-in function (like len), or a function you define
