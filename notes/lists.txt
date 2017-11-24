@@ -85,3 +85,14 @@ Slices work on lists just as with strings, and can also be used to change sub-pa
          print list[1:-1]   ## ['b', 'c']
 NOTE:    list[0:2] = 'z'    ## replace ['a', 'b'] with ['z']
          print list         ## ['z', 'c', 'd']
+
+
+
+List Comprehensions
+
+  - a way to generate a new list by performing some operations on the elements of an existing list. ex:
+
+    nums = [1, 2, 3, 4]
+    squares = [ n * n for n in nums ]   ## [1, 4, 9, 16]
+
+  - this also 

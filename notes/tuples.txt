@@ -1,0 +1,36 @@
+Tuples
+
+A tuple is a fixed size grouping of elements, such as an (x, y) co-ordinate.
+
+- like lists, but immutable, and fixed size
+- not strictly immutable because the objects within the tuple can change
+
+
+
+Why use tuples?
+
+- Tuples play a sort of "struct" role in Python -- a convenient way to pass around a little logical, fixed size bundle of values.
+
+- A function that needs to return multiple values can just return a tuple of the values.
+
+- For example, if I wanted to have a list of 3-d coordinates, the natural python representation would be a list of tuples, where each tuple is size 3 holding one (x, y, z) group.
+
+
+
+How to use Tuples
+
+- put your stuff in parentheses like so:
+  (1, 2, "hi")
+
+- to create a one-element tuple, put a comma after the element:
+  ("hi",)
+
+  - this is to differentiate the tuple from an expression in parentheses
+
+- In some cases you can omit the parenthesis and Python will see from the commas that you intend a tuple.
+
+- Assigning a tuple to an identically sized tuple of variable names assigns all the corresponding values. If the tuples are not the same size, it throws an error. This feature works for lists too.
+
+  (x, y, z) = (42, 13, "hike")
+  print z  ## hike
+  (err_string, err_code) = Foo()  ## Foo() returns a length-2 tuple
