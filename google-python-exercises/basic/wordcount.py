@@ -39,6 +39,38 @@ print_words() and print_top().
 
 import sys
 
+def make_dict(filename):
+    word_counts = {}
+    f = open(filename, 'rU')
+    for line in f:
+        words = line.split(" ")
+        for word in words:
+            low = word.lower()
+            if low in word_counts:
+                word_counts[low] += 1
+            else:
+                word_counts[low] = 1
+    f.close()
+
+    return word_counts
+
+
+def print_words(filename):
+    word_counts = make_dict(filename)
+    word_list = []
+    for word in word_counts:
+        word_list.append(word + " " + word_counts[word])
+        print sorted(word_list)
+
+
+def get_count(tuple):
+    tuple[1]
+
+def print_top(filename):
+    word_counts = make_dict(filename)
+
+    return sorted(word_counts.items(), reverse=True, key=get_count)
+
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
