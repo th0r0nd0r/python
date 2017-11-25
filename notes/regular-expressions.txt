@@ -1,3 +1,8 @@
 Regular Expressions
 
 Regular expressions in Python use the 're' module
+
+
+use them like this:
+
+match = re.search(pat, str)
