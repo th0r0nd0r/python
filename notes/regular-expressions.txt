@@ -15,3 +15,13 @@ where pat is the pattern to search for, and str is the string to search
 
 
 Pairing with If Statements:
+
+  - regex are most often paired with if statements, like so:
+
+    str = 'an example word:cat!!'
+    match = re.search(r'word:\w\w\w', str)
+    # If-statement after search() tests if it succeeded
+    if match:
+      print 'found', match.group() ## 'found word:cat'
+    else:
+      print 'did not find'
