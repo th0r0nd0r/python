@@ -27,3 +27,4 @@ Pairing with If Statements:
       print 'did not find'
 
   - the 'r' at the start of the pattern signifies a python 'raw' string
+  - raw strings pass through backslashes without change
