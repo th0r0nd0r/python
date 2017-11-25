@@ -25,3 +25,5 @@ Pairing with If Statements:
       print 'found', match.group() ## 'found word:cat'
     else:
       print 'did not find'
+
+  - the 'r' at the start of the pattern signifies a python 'raw' string
