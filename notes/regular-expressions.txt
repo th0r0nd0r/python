@@ -11,3 +11,4 @@ where pat is the pattern to search for, and str is the string to search
 
 
  - if a match is found, the matched object is returned
+ - otherwise, the search function returns None
