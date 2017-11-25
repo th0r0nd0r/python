@@ -8,3 +8,6 @@ use them like this:
   match = re.search(pat, str)
 
 where pat is the pattern to search for, and str is the string to search
+
+
+ - if a match is found, the matched object is returned
