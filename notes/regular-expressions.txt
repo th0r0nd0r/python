@@ -28,3 +28,4 @@ Pairing with If Statements:
 
   - the 'r' at the start of the pattern signifies a python 'raw' string
   - raw strings pass through backslashes without change
+  - recommended to always write pattern strings with the 'r'
