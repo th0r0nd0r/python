@@ -41,6 +41,9 @@ def is_number(s):
     except ValueError:
         return False
 
+def name_from_tuple(tup):
+    return tup[0]
+
 def extract_names(filename):
   """
   Given a file name for baby.html, returns a list starting with the year string
