@@ -55,7 +55,7 @@ def extract_names(filename):
 
   i = 0
 
-  for i in range(0:len(names) - 1)
+  for i in range(0,len(names) - 1)
       print names[i]
       names[i] = names[i][4:-5]
       print names[i]
