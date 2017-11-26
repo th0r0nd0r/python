@@ -47,7 +47,7 @@ def extract_names(filename):
   followed by the name-rank strings in alphabetical order.
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
-
+  ## saving the text so search through
   f = open(filename, 'r')
 
   text = f.read()
@@ -55,20 +55,25 @@ def extract_names(filename):
   # print text
   f.close()
 
+  ## getting the list of names and rankings
   names = re.findall(r'<td>\w+</td>', text)
   # baby = re.findall(r'\w+', text)
+
+  ## get the year from the file name
   year = re.findall(r'\d\d\d\d',filename)
 
 
   i = 0
-
+  ## remove the <td></td> from the names and rankings
   for i in range(0,len(names)):
       names[i] = names[i][4:-5]
 
+
+  ## make a dict with name keys and ranking values
   ranking_dict = {}
 
   for item in names:
-      if str(int(item)) == item:
+      if is_number(item):
           rank = item
       else:
           ranking_dict[item] = rank
