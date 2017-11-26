@@ -58,6 +58,15 @@ def extract_names(filename):
   for i in range(0,len(names)):
       names[i] = names[i][4:-5]
 
+  ranking_dict = {}
+
+  for item in names:
+      if str(int(item)) == item:
+          rank = item
+      else:
+
+
+
   return year + names
 
 
