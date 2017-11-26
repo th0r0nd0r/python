@@ -55,16 +55,10 @@ def extract_names(filename):
 
   i = 0
 
-  for i in range(0,len(names) - 1):
-      print names[i]
+  for i in range(0,len(names)):
       names[i] = names[i][4:-5]
-      print names[i]
-  # print match
-  print names
-  # print names
-  # print year
-  # print baby
-  return
+
+  return year + names
 
 
 def main():
