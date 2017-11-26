@@ -47,17 +47,17 @@ def extract_names(filename):
 
   # print text
 
-  names = re.findall(r'<td>\w', text)
+  names = re.findall(r'<td>\w+</td>', text)
   # baby = re.findall(r'\w+', text)
   year = re.findall(r'\d\d\d\d',filename)
 
   f.close()
 
-  print names
 
   for name in names:
-      name = name[1:-1]
+      name = name[4:-5]
   # print match
+  print names
   # print names
   # print year
   # print baby
