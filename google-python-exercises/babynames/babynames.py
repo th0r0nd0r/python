@@ -41,6 +41,7 @@ def extract_names(filename):
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
   year = re.findall(r'\d\d\d\d',filename)
+  names = re.findall(r'>\w+<')
   # print match
   return match
 
