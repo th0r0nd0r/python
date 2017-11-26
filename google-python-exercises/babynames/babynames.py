@@ -46,6 +46,7 @@ def extract_names(filename):
   for name in names:
       name = name[1:-1]
   # print match
+  print names
   return year + names
 
 
