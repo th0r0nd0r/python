@@ -114,3 +114,13 @@ Pairing with If Statements:
       ## \d = digit char, \w = word char
       match = re.search(r'\d\d\d', 'p123g') =>  found, match.group() == "123"
       match = re.search(r'\w\w\w', '@@abcd!!') =>  found, match.group() == "abc"
+
+
+
+Repetition
+
+Things get more interesting when you use + and * to specify repetition in the pattern
+
++ -- 1 or more occurrences of the pattern to its left, e.g. 'i+' = one or more i's
+* -- 0 or more occurrences of the pattern to its left
+? -- match 0 or 1 occurrences of the pattern to its left
