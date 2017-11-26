@@ -45,7 +45,7 @@ def extract_names(filename):
 
   text = f.read()
 
-  print text
+  # print text
 
   names = re.findall(r'<td>[a-z]+</td>', text)
   # baby = re.findall(r'\w+', text)
