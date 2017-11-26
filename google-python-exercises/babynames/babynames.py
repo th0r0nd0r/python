@@ -34,6 +34,13 @@ Suggested milestones for incremental development:
  -Fix main() to use the extract_names list
 """
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
 def extract_names(filename):
   """
   Given a file name for baby.html, returns a list starting with the year string
@@ -69,7 +76,7 @@ def extract_names(filename):
 
   print ranking_dict
 
-  return 
+  return
 
 
 def main():
