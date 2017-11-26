@@ -64,10 +64,12 @@ def extract_names(filename):
       if str(int(item)) == item:
           rank = item
       else:
+          ranking_dict[item] = rank
 
 
+  print ranking_dict
 
-  return year + names
+  return 
 
 
 def main():
