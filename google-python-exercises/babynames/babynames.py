@@ -65,5 +65,18 @@ def main():
   # For each filename, get the names, then either print the text output
   # or write it to a summary file
 
+  for filename in args:
+    names = extract_names(filename)
+
+    # Make text out of the whole list
+    text = '\n'.join(names)
+
+    if summary:
+      outf = open(filename + '.summary', 'w')
+      outf.write(text + '\n')
+      outf.close()
+    else:
+      print text
+
 if __name__ == '__main__':
   main()
