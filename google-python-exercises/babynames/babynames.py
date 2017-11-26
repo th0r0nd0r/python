@@ -42,7 +42,7 @@ def extract_names(filename):
   """
   match = re.findall(r'\d\d\d\d',filename)
   print match
-  return
+  return match
 
 
 def main():
