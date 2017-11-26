@@ -82,11 +82,18 @@ def extract_names(filename):
           ranking_dict[item] = rank
 
 
-  print ranking_dict
+  # print ranking_dict
 
+
+  ## create a list of name-ranking tuples, sorted alphabetically
   sorted_rankings = sorted(ranking_dict.items(), key=name_from_tuple)
 
-  return
+  ## join the tuples from sorted_rankings to make a list of strings
+  joined_rankings = [" ".join(tup) for tup in sorted_rankings]
+
+  # print joined_rankings
+
+  return year + joined_rankings
 
 
 def main():
