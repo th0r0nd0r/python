@@ -84,6 +84,8 @@ def extract_names(filename):
 
   print ranking_dict
 
+  sorted_rankings = sorted(ranking_dict.items(), key=name_from_tuple)
+
   return
 
 
