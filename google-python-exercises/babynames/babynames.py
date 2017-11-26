@@ -45,8 +45,8 @@ def extract_names(filename):
 
   text = f.read()
 
-  baby = re.findall(r'\w+', f.read())
-  names = re.findall(r'>[a-z]+<', f.read())
+  baby = re.findall(r'\w+', text)
+  names = re.findall(r'>[a-z]+<', text)
   year = re.findall(r'\d\d\d\d',filename)
 
   f.close()
