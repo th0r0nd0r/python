@@ -40,15 +40,18 @@ def extract_names(filename):
   followed by the name-rank strings in alphabetical order.
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
+
+  f = open(filename, 'r')
+
   year = re.findall(r'\d\d\d\d',filename)
   names = re.findall(r'>[a-z]+<', filename)
-  # baby = re.findall(r'\w+', filename)
+  baby = re.findall(r'\w+', filename)
 
   for name in names:
       name = name[1:-1]
   # print match
   print names
-  # print baby
+  print baby
   return year + names
 
 
