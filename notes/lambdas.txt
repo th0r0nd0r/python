@@ -17,3 +17,21 @@ We can use lambdas to accomplish this.
 def build_quadratic_function(a,b,c):
   """returns the function f(x) = ax^2 + bx + c"""
   return lambda x: a*x**2 + b*x + c
+
+some sample outputs:
+
+f = build_quadratic_function(2, 3, -5):
+
+>>>f(0)
+-5
+>>>f(1)
+0
+>>>f(2)
+9
+
+you can also pass values to the inner lambda all at once
+(just like in JavaScript!)
+
+## 3x^2 + 0x + 2 evaluated for 2
+>>> build_quadratic_function(3, 0, 2)(2)
+14
