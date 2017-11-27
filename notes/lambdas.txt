@@ -5,3 +5,5 @@ lambdas
 - can be assigned to a variable, or not
 
 - can take multiple arguments
+
+- can be used like closures, like in this example:
