@@ -1,1 +1,3 @@
 lambdas
+
+- similar to anonymous arrow functions in JavaScript, but can't be multiline
