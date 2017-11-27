@@ -1,5 +1,7 @@
 lambdas
 
 - similar to anonymous arrow functions in JavaScript, but can't be multiline
+
 - can be assigned to a variable, or not
-- 
+
+- can take multiple arguments
