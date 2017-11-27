@@ -9,6 +9,11 @@ lambdas
 - can be used like closures, like in this example:
 
 
+
 Say we want to build a function that builds other functions.  In this case, we want to build quadratics.
 
 We can use lambdas to accomplish this.
+
+def build_quadratic_function(a,b,c):
+  """returns the function f(x) = ax^2 + bx + c"""
+  return lambda x: a*x**2 + b*x + c
