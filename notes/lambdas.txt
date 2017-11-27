@@ -7,3 +7,8 @@ lambdas
 - can take multiple arguments
 
 - can be used like closures, like in this example:
+
+
+Say we want to build a function that builds other functions.  In this case, we want to build quadratics.
+
+We can use lambdas to accomplish this.
